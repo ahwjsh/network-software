@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  service:
+    image: inventory-service:v1.0
+    build:
+      context: ./service
+    ports:
+      - "8080:8000"
